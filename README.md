@@ -30,7 +30,7 @@ Dataset Architecture
 | **Batch Diagnostics** | ~60,000 records / 14 Vehicles | Mixed models analysis (2003 - 2016) |
 | **Driver Behaviour** | ~8,200 records / 20 Drivers | Timing Advance and Fuel trims analysis |
  
--- Project Structure
+Project Structure
 -
 ```text
 Project_Vehicle_Monitoring/
@@ -62,3 +62,19 @@ Project_Vehicle_Monitoring/
 │   └── README.md
 ```
 
+How can you use it on your device?
+-
+1. Clone the Repository
+   ```Text
+   git clone [https://github.com/Amazingly12/Smart_Vehicle_Monitoring_Using_OBD_II.git](https://github.com/Amazingly12/Smart_Vehicle_Monitoring_Using_OBD_II.git)
+   ```
+2. Install Dependencies
+   ```Text
+   pip install requirements.txt
+   ```
+3. Run the Application
+   ```Text
+   cd Project
+   uvicorn main:app --reload
+   ```
+   
