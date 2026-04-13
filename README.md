@@ -57,6 +57,8 @@ Project_Vehicle_Monitoring/
 │   │   ├── Section_MS.html
 │   │   ├── Section_RESULTS.html
 │   │   └── Section_RESULTS.htmll
+│   ├── Screenshots/
+│   │   └── Overview_Page.png
 │   ├── main.py
 │   ├── requirements.txt
 │   └── README.md
@@ -80,3 +82,4 @@ How can you use it on your device?
 
 Screenshots
 -
+![Overview Page](Screenshots/Overview_Page.png)
