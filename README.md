@@ -13,3 +13,8 @@ By implementing Long Short-Term Memory (LSTM) neural networks, this system conti
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 ![Uvicorn](https://img.shields.io/badge/Uvicorn-0B1C2C?style=for-the-badge&logo=python&logoColor=white)
 
+### Features
+- Predicts potential vehicle errors.
+- Cleans and analyzes historical vehicle telematics.
+- Threshold Alerting | Anomaly Detection | Interactive Visualization.
+- User-Centric, One-Click Diagnostic Reports.
