@@ -77,4 +77,6 @@ How can you use it on your device?
    cd Project
    uvicorn main:app --reload
    ```
-   
+
+Screenshots
+-
