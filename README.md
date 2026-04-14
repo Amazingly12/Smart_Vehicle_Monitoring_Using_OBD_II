@@ -59,7 +59,8 @@ Project_Vehicle_Monitoring/
 │   │   ├── Section_RESULTS.html
 │   │   └── Section_RESULTS.htmll
 │   ├── Screenshots/
-│   │   ├── ModelSelection.png
+│   │   ├── Model_Selector.png
+│   │   ├── Data_Visualizer.png
 │   │   └── Overview_Page.png
 │   ├── main.py
 │   ├── requirements.txt
@@ -85,4 +86,5 @@ How can you use it on your device?
 Screenshots
 -
 ![Overview Page](Screenshots/Overview_Page.png)
-![Model_Selection](Screenshots/ModelSelection.png)
+![Model_Selector](Screenshots/Model_Selector.png)
+![Data_Visualizer](Screenshots/Data_Visualizer.png)
