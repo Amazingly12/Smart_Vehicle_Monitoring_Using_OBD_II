@@ -12,6 +12,7 @@ LANGUAGES & TOOLS
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 ![Uvicorn](https://img.shields.io/badge/Uvicorn-0B1C2C?style=for-the-badge&logo=python&logoColor=white)
 
@@ -24,11 +25,11 @@ Features
 
 Dataset Architecture
 - 
-| Datasets | Scale | Primary Focus |
-| :--- | :--- | :--- |
-| **Vehicle Telematics** | ~1,700 records / 30 Params | Core engine metrics & health patterning |
-| **Batch Diagnostics** | ~60,000 records / 14 Vehicles | Mixed models analysis (2003 - 2016) |
-| **Driver Behaviour** | ~8,200 records / 20 Drivers | Timing Advance and Fuel trims analysis |
+| Datasets | Scale | Attributes | Primary Focus |
+| :--- | :--- | :--- | :--- |
+| **Vehicle Telematics** | ~1,700 records | 30 Parameters | Core engine metrics & health patterning |
+| **Batch Diagnostics** | ~60,000 records | 14 Vehicles | Mixed models analysis (2003 - 2016) |
+| **Driver Behaviour** | ~8,200 records | 20 Drivers | Timing Advance and Fuel trims analysis |
  
 Project Structure
 -
@@ -83,3 +84,4 @@ How can you use it on your device?
 Screenshots
 -
 ![Overview Page](Screenshots/Overview_Page.png)
+![Model_Selection](Screenshots/ModelSelection.png)
