@@ -1,2 +1,21 @@
-Project/Static/* linguist-vendored
-Project/Templates/* linguist-vendored
+# 1. Ensure consistent line endings (crucial for Raspberry Pi/Linux deployment)
+* text=auto eol=lf
+
+# 2. "Boost" Python stats by ignoring the frontend and static assets
+# This hides the HTML/CSS from the GitHub language bar
+templates/* linguist-vendored
+static/* linguist-vendored
+*.html linguist-vendored
+*.css linguist-vendored
+*.js linguist-vendored
+
+# 3. Handle data and ML files as binary
+# This prevents Git from corrupting your LSTM models or OBD-II logs
+*.pth binary
+*.pkl binary
+*.h5 binary
+*.csv binary
+*.db binary
+
+# 4. Mark specific project files as detectable
+app/*.py linguist-detectable
