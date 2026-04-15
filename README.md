@@ -1,4 +1,4 @@
-# Smart Vehicle Health Monitoring Using OBD - II
+# Smart Vehicle Health Monitoring Using OBD - II ![Industry](https://img.shields.io/badge/Automotive-red)
 
 Overview
 -
